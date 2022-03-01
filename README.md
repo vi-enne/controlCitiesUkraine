@@ -7,7 +7,7 @@ Cities' coordinates are taken from https://simplemaps.com and from Google when m
 An interactive map generated from these data is available [here](https://datawrapper.dwcdn.net/tIDxs).
 
 # Disclaimer
-PLEASE USE CAUTION IN USING THESE DATA:
+PLEASE USE CAUTION IN CONSULTING THESE DATA:
 Information in this list may change rapidly as the event progresses. Initial news reports may be unreliable. The last updates to this list may not reflect the most current information.
 
 

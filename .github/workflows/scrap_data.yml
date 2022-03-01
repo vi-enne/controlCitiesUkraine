@@ -1,0 +1,50 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# See https://github.com/r-lib/actions/tree/master/examples#readme for
+# additional example workflows available for the R community.
+
+name: update cities
+
+# Controls when the action will run.
+on:
+  workflow_dispatch:
+  schedule:
+   - cron:  '*/15 * * * *'
+
+jobs: 
+  update_rt:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+
+    # Load repo and install R
+    steps:
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r@master
+
+    # Set-up R
+    - name: Install packages
+      run: |
+        R -e 'install.packages(c("rvest", "data.table", "tidyr"))'
+    # Run R script
+    - name: scrap Wiki
+      run: Rscript controlCitiesUkraine.R
+     
+ # Add new files in data folder, commit along with other modified files, push
+    - name: Commit files
+      run: |
+          echo "Checking data on: `date`"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "New update available"
+            git config --local user.name actions-user
+            git config --local user.email "actions@github.com"
+            git add output/*
+            git commit -am "Update data - $(date)"
+            git push origin main
+          else
+            echo "no changes to commit"
+          fi
+      env:
+        TZ: Europe/Rome

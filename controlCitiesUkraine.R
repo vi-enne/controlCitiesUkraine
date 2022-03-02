@@ -29,6 +29,8 @@ last_edit <- gsub("\\.","",last_edit)
 last_edit <- gsub(":","h",last_edit)
 last_edit <- gsub("[[:punct:]]", "", last_edit)
 df$update <- last_edit
+last_edit <- gsub("[[:space:]]", "_", last_edit)
+
 
 df$NameSimple <- gsub("y", "i", df$Name)
 

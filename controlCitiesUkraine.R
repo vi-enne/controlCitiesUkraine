@@ -16,6 +16,7 @@ df <- rbindlist(df)
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
 df$source <- as.numeric(gsub("\\].*","", df$source))
 ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")
+ref <- gsub("/wiki/", "https://en.wikipedia.org/wiki/", ref)
 df$sourceLink <- ref[df$source]
 df$`Held by` <- gsub(":","", df$`Held by`)
 df <- subset(df, select = -c(Raion) )

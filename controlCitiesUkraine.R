@@ -28,6 +28,7 @@ last_edit <- gsub(", at","",last_edit)
 last_edit <- gsub("\\.","",last_edit)
 last_edit <- gsub(":","h",last_edit)
 last_edit <- gsub("[[:punct:]]", "", last_edit)
+last_edit <- gsub("[[:space:]]", " ", last_edit)
 df$update <- last_edit
 last_edit <- gsub("[[:space:]]", "_", last_edit)
 

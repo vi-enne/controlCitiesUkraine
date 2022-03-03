@@ -19,6 +19,7 @@ ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")
 ref <- gsub("/wiki/", "https://en.wikipedia.org/wiki/", ref)
 df$sourceLink <- ref[df$source]
 df$`Held by` <- gsub(":","", df$`Held by`)
+df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df <- subset(df, select = -c(Raion) )
 df$Population <- gsub("approx. ","", df$Population)
 df$Population[df$Name=="Chernobyl"] <- 500

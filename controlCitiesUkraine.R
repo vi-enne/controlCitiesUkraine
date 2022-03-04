@@ -31,6 +31,7 @@ last_edit <- gsub("\\.","",last_edit)
 last_edit <- gsub(":","h",last_edit)
 last_edit <- gsub("[[:punct:]]", "", last_edit)
 last_edit <- gsub("[[:space:]]", " ", last_edit)
+last_edit <- paste(gsub("(\\d)[^0-9]+$", "\\1", last_edit), "UTC")
 df$update <- last_edit
 last_edit <- gsub("[[:space:]]", "_", last_edit)
 
@@ -53,6 +54,17 @@ write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", 
 write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "latest", ".csv"),
           row.names = F,
           fileEncoding = "UTF-8")
+
+
+total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", fileEncoding = "UTF-8")
+if(df$update[nrow(df)] != total$update[nrow(total)]){
+  df <- rbind(df, total)
+  df[is.na(df)] <- ""
+  write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
+            row.names = F,
+            fileEncoding = "UTF-8")
+}
+
 
 
 

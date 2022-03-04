@@ -57,7 +57,7 @@ write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", 
 
 
 total <- read.csv("https://raw.githubusercontent.com/vi-enne/controlCitiesUkraine/main/output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", 
-                  fileEncoding = "UTF-8", sep = ",")
+                  fileEncoding = "UTF-8", sep = ",", check.names=FALSE)
 if(df$update[nrow(df)] != total$update[nrow(total)]){
  df <- rbind(df, total)
  df[is.na(df)] <- ""

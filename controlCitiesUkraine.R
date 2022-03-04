@@ -56,14 +56,14 @@ write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", 
           fileEncoding = "UTF-8")
 
 
-total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", fileEncoding = "UTF-8", sep = ",")
-if(df$update[nrow(df)] != total$update[nrow(total)]){
-  df <- rbind(df, total)
-  df[is.na(df)] <- ""
-  write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
-            row.names = F,
-            fileEncoding = "UTF-8")
-}
+#total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", fileEncoding = "UTF-8", sep = ",")
+#if(df$update[nrow(df)] != total$update[nrow(total)]){
+#  df <- rbind(df, total)
+#  df[is.na(df)] <- ""
+#  write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
+#            row.names = F,
+#            fileEncoding = "UTF-8")
+#}
 
 
 

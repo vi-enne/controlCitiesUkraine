@@ -18,6 +18,7 @@ df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = 
 df$source <- as.numeric(gsub("\\].*","", df$source))
 ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")
 ref <- gsub("/wiki/", "https://en.wikipedia.org/wiki/", ref)
+ref <- gsub("\\?.*", "", ref) #bonify links
 df$sourceLink <- ref[df$source]
 df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)

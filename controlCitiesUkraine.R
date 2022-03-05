@@ -5,6 +5,7 @@ library(rvest)
 library(data.table)
 library(tidyr)
 
+#Scrap page ----
 url <- "https://en.wikipedia.org/wiki/Cities_and_towns_during_the_Russo-Ukrainian_War"
 webpage <- read_html(url)
 tbls <- html_nodes(webpage, "table")
@@ -35,19 +36,19 @@ last_edit <- paste(gsub("(\\d)[^0-9]+$", "\\1", last_edit), "UTC")
 df$update <- last_edit
 last_edit <- gsub("[[:space:]]", "_", last_edit)
 
-
 df$NameSimple <- gsub("y", "i", df$Name)
 
+# Add coordinates ----
 #Coordinates are taken from https://simplemaps.com/ and from Google when missing
 coords <- read.csv("ukraineCities.csv")
-coords$NameSimple <-  gsub("y", "i", coords$city_ascii)
+coords$NameSimple <- gsub("y", "i", coords$city_ascii)
 
 temp <- merge(df, coords, all.x=T) 
 df <- subset(temp, select = -c(NameSimple, city, city_ascii, country,	iso2,	iso3,	admin_name) )
 
 df[is.na(df)] <- ""
 
-
+#Write current and latest ----
 write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", last_edit, ".csv"), 
           row.names = F, 
           fileEncoding = "UTF-8")
@@ -55,8 +56,8 @@ write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", 
           row.names = F,
           fileEncoding = "UTF-8")
 
-
-total <- read.csv("https://raw.githubusercontent.com/vi-enne/controlCitiesUkraine/main/output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", 
+#Total ----
+total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", 
                   fileEncoding = "UTF-8", sep = ",", check.names=FALSE)
 if(df$update[nrow(df)] != total$update[nrow(total)]){
  df <- rbind(total, df)

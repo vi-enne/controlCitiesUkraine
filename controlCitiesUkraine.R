@@ -48,6 +48,8 @@ temp <- merge(df, coords, all.x=T)
 df <- subset(temp, select = -c(NameSimple, city, city_ascii, country,	iso2,	iso3,	admin_name) )
 
 df[is.na(df)] <- ""
+df$Population <- gsub(",", "", df$Population)
+df$Population <- as.numeric(df$Population)
 
 #Write current and latest ----
 write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", last_edit, ".csv"), 

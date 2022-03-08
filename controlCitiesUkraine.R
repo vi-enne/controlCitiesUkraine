@@ -14,6 +14,7 @@ if(ncol(df[[1]]) < 5){
   df <- df[-1] #remove disclaimer if present
 }
 df <- rbindlist(df)
+df$Name <- gsub("\\[.*","", df$Name)
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
 df$source <- as.numeric(gsub("\\].*","", df$source))
 ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")

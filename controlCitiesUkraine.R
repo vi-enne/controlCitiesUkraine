@@ -25,7 +25,9 @@ df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df <- subset(df, select = -c(Raion) )
 df$Population <- gsub("approx. ","", df$Population)
-#df$Population[df$Name=="Chernobyl"] <- 500
+df$`More information` <- gsub("\\[.*","", df$`More information`)
+df$`More information` <- gsub("Awarded"," Awarded", df$`More information`)
+df$`More information` <- gsub("KyivSee","Kyiv See", df$`More information`)
 
 last_edit <- html_text(html_nodes(webpage, "footer #footer-info-lastmod"))
 last_edit <- gsub(".*on ","",last_edit)

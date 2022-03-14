@@ -40,6 +40,10 @@ for (i in 1:(length(ref_sharp)-1)){
   }else{
     ref_clean[i] <- temp[match]
   }
+  
+  if(ref_clean[i] == "/wiki/General_Staff_of_the_Ukrainian_Armed_Forces"){
+    ref_clean[i] <- temp[3]
+  }
 }
 
 ref <- ref_clean

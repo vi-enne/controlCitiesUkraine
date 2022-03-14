@@ -23,6 +23,7 @@ ref <- gsub("\\?.*", "", ref) #bonify links
 df$sourceLink <- ref[df$source]
 df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
+df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)
 df <- subset(df, select = -c(Raion) )
 df$Population <- gsub("approx. ","", df$Population)
 df$`More information` <- gsub("\\[.*","", df$`More information`)

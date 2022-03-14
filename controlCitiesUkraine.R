@@ -17,10 +17,38 @@ df <- rbindlist(df)
 df$Name <- gsub("\\[.*","", df$Name)
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
 df$source <- as.numeric(gsub("\\].*","", df$source))
-ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")
+
+# References ----
+# ref <- html_attr(html_node(html_nodes(webpage, 'cite'), "a"), "href")
+ref <- html_nodes(webpage, '.references')
+ref <- html_nodes(ref, "li")
+ref <- html_nodes(ref, "a")
+ref <- html_attr(ref, "href")
+
+ref <- gsub("\\#.*", "\\#", ref)
+ref <- c(rle(ref)$values, "#")
+
+ref_sharp <- which(ref=="#")
+ref_clean <- rep(NA, length(ref_sharp)-1)
+
+for (i in 1:(length(ref_sharp)-1)){
+  temp <- ref[ref_sharp[i]:ref_sharp[i+1]]
+  match <- grep("web.archive.org", temp, ignore.case = T)
+  
+  if(!length(temp[match])){
+    ref_clean[i] <- temp[2]
+  }else{
+    ref_clean[i] <- temp[match]
+  }
+}
+
+ref <- ref_clean
 ref <- gsub("/wiki/", "https://en.wikipedia.org/wiki/", ref)
 ref <- gsub("\\?.*", "", ref) #bonify links
 df$sourceLink <- ref[df$source]
+
+
+# Control ----
 df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)

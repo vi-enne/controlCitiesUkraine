@@ -101,7 +101,7 @@ total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.
 if(df$update[nrow(df)] != total$update[nrow(total)]){
  df <- rbind(total, df)
  df[is.na(df)] <- ""
- total <- unique(total)
+ df <- unique(df)
  write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
            row.names = F,
            fileEncoding = "UTF-8")

@@ -80,11 +80,13 @@ df$update <- last_edit
 last_edit <- gsub("[[:space:]]", "_", last_edit)
 
 df$NameSimple <- gsub("y", "i", df$Name)
+df$NameSimple <- gsub("[[:space:]]", "", df$NameSimple)
 
 # Add coordinates ----
 #Coordinates are taken from https://simplemaps.com/ and from Google when missing
 coords <- read.csv("ukraineCities.csv")
 coords$NameSimple <- gsub("y", "i", coords$city_ascii)
+coords$NameSimple <- gsub("[[:space:]]", "", coords$NameSimple)
 
 temp <- merge(df, coords, all.x=T) 
 df <- subset(temp, select = -c(NameSimple, city, city_ascii, country,	iso2,	iso3,	admin_name) )

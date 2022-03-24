@@ -66,6 +66,7 @@ df$Population <- as.numeric(df$Population)
 df$`More information` <- gsub("\\[.*","", df$`More information`)
 df$`More information` <- gsub("Awarded"," Awarded", df$`More information`)
 df$`More information` <- gsub("Present military control in Kyiv","", df$`More information`)
+df$`More information` <- gsub("Present control in Mariupol","", df$`More information`)
 
 #Last edit ----
 last_edit <- html_text(html_nodes(webpage, "footer #footer-info-lastmod"))

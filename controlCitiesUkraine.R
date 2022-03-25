@@ -57,6 +57,7 @@ df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)
 df <- subset(df, select = -c(Raion) )
+df$`Held by`[df$`Held by`==""] <- "Contested" #temp fix
 
 #Population ----
 df$Population <- gsub("[^0-9]+", "", df$Population)

@@ -97,9 +97,9 @@ df[is.na(df)] <- ""
 
 
 #Write current and latest ----
-write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", last_edit, ".csv"), 
-          row.names = F, 
-          fileEncoding = "UTF-8")
+# write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", last_edit, ".csv"), 
+#           row.names = F, 
+#           fileEncoding = "UTF-8")
 write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "latest", ".csv"),
           row.names = F,
           fileEncoding = "UTF-8")

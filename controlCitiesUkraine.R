@@ -1,12 +1,12 @@
 #Extract "Cities and towns during the Russo-Ukrainian War" from Wikipedia
-# https://en.wikipedia.org/wiki/Cities_and_towns_during_the_Russo-Ukrainian_War
+# https://en.wikipedia.org/wiki/Control_of_cities_during_the_Russo-Ukrainian_War
 
 library(rvest)
 library(data.table)
 library(tidyr)
 
 #Scrap page ----
-url <- "https://en.wikipedia.org/wiki/Cities_and_towns_during_the_Russo-Ukrainian_War"
+url <- "https://en.wikipedia.org/wiki/Control_of_cities_during_the_Russo-Ukrainian_War"
 webpage <- read_html(url)
 tbls <- html_nodes(webpage, "table")
 df <- html_table(tbls[grep("Held by",tbls,ignore.case = T)],fill = T)

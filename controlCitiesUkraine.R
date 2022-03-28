@@ -116,6 +116,3 @@ if(df$update[nrow(df)] != total$update[nrow(total)]){
            fileEncoding = "UTF-8")
 }
 
-
-
-

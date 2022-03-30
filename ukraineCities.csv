@@ -86,7 +86,7 @@ Chornomorsk,Chornomorsk,46.3017,30.6569,Odes’ka Oblast’
 Chortkiv,Chortkiv,49.0167,25.8,Ternopil’s’ka Oblast’
 Chudniv,Chudniv,50.0528,28.0969,Zhytomyrs’ka Oblast’
 Chuhuiv,Chuhuiv,49.8353,36.6756,Kharkivs’ka Oblast’
-Chulakivka ,Chulakivka ,46.3601,32.3523,
+Chulakivka,Chulakivka,46.3601,32.3523,
 Chyhyryn,Chyhyryn,49.0833,32.6667,Cherkas’ka Oblast’
 Chynadiyovo,Chynadiyovo,48.4833,22.8333,Zakarpats’ka Oblast’
 Debaltseve,Debaltseve,48.3341,38.4062,
@@ -95,7 +95,7 @@ Derhachi,Derhachi,50.1066,36.1211,
 Dnipro,Dnipro,48.45,34.9833,Dnipropetrovs’ka Oblast’
 Dniprorudne,Dniprorudne,47.3855,34.9879,Zaporiz’ka Oblast’
 Dniprovske,Dniprovske,48.5953,34.4207,Dnipropetrovs’ka Oblast’
-Dobra Krynytsia ,Dobra Krynytsia ,47.2404,32.3176,
+Dobra Krynytsia,Dobra Krynytsia,47.2404,32.3176,
 Dobroslav,Dobroslav,46.82,30.945,Odes’ka Oblast’
 Dobrotvir,Dobrotvir,50.2056,24.3864,L’vivs’ka Oblast’
 Dobrovelychkivka,Dobrovelychkivka,48.35,31.1667,Kirovohrads’ka Oblast’
@@ -245,7 +245,6 @@ Lozova,Lozova,48.8892,36.3161,Kharkivs’ka Oblast’
 Lozuvatka,Lozuvatka,48.061,33.2927,Dnipropetrovs’ka Oblast’
 Lubny,Lubny,50.0186,32.9869,Poltavs’ka Oblast’
 Luch,Luch,46.8273,32.2197,
-Luch ,Luch ,46.8273,32.2197,
 Luhansk,Luhansk,48.5833,39.3333,Luhans’ka Oblast’
 Lukyanivka,Lukyanivka,50.4657,30.4759,
 Lutsk,Lutsk,50.7478,25.3244,Volyns’ka Oblast’
@@ -301,7 +300,6 @@ Nikopol,Nikopol,47.5772,34.3575,Dnipropetrovs’ka Oblast’
 Nizhyn,Nizhyn,51.05,31.9,Chernihivs’ka Oblast’
 Nosivka,Nosivka,50.93,31.58,Chernihivs’ka Oblast’
 Nova Basan,Nova Basan,50.5677,31.5036,
-Nova Basan ,Nova Basan ,50.5677,31.5036,
 Nova Borova,Nova Borova,50.6922,28.6367,Zhytomyrs’ka Oblast’
 Nova Kakhovka,Nova Kakhovka,46.7667,33.3667,Khersons’ka Oblast’
 Nova Maiachka,Nova Maiachka,46.6033,33.2283,Khersons’ka Oblast’
@@ -325,7 +323,6 @@ Obukhiv,Obukhiv,50.1,30.6167,Kyyivs’ka Oblast’
 Obukhivka,Obukhivka,48.5442,34.8664,Dnipropetrovs’ka Oblast’
 Ochakiv,Ochakiv,46.6186,31.5392,Mykolayivs’ka Oblast’
 Ocheretyne,Ocheretyne,48.2443,37.6116,
-Ocheretyne ,Ocheretyne ,48.2443,37.6116,
 Odesa,Odesa,46.4775,30.7326,Odes’ka Oblast’
 Odessa,Odessa,46.4825,30.7233,
 Okhtyrka,Okhtyrka,50.3074,34.9016,Sums’ka Oblast’
@@ -362,7 +359,6 @@ Pidvolochysk,Pidvolochysk,49.5311,26.1467,Ternopil’s’ka Oblast’
 Pishchanka,Pishchanka,48.2058,28.8889,Vinnyts’ka Oblast’
 Piskivka,Piskivka,50.7078,29.595,Kyyivs’ka Oblast’
 Pisky,Pisky,48.0643,37.6741,
-Pisky ,Pisky ,48.0643,37.6741,
 Pivdenne,Pivdenne,49.8849,36.0687,Kharkivs’ka Oblast’
 Podilsk,Podilsk,47.7419,29.535,Odes’ka Oblast’
 Pohrebyshche,Pohrebyshche,49.4869,29.2733,Vinnyts’ka Oblast’
@@ -376,10 +372,8 @@ Pomichna,Pomichna,48.25,31.4167,Kirovohrads’ka Oblast’
 Poninka,Poninka,50.1833,27.5333,Khmel’nyts’ka Oblast’
 Popasna,Popasna,48.6282,38.3727,
 Posad-Pokrovske,Posad-Pokrovske,46.8064,32.2561,
-Posad-Pokrovske ,Posad-Pokrovske ,46.8064,32.2561,
 Pryazovske,Pryazovske,46.7378,35.6416,Zaporiz’ka Oblast’
 Prybuzke,Prybuzke,46.739,31.8824,
-Prybuzke ,Prybuzke ,46.739,31.8824,
 Pryluky,Pryluky,50.6,32.4,Chernihivs’ka Oblast’
 Prymorsk,Prymorsk,46.7333,36.3596,Zaporiz’ka Oblast’
 Pryvillya,Pryvillya,48.9999,38.2948,Luhans’ka Oblast’
@@ -417,7 +411,6 @@ Shchastia,Shchastia,48.7381,39.2311,Luhans’ka Oblast’
 Shepetivka,Shepetivka,50.1833,27.0667,Khmel’nyts’ka Oblast’
 Shestovytsia,Shestovytsia,51.3842,31.1935,
 Shevchenkove,Shevchenkove,47.5437,32.5371,
-Shevchenkove ,Shevchenkove ,50.6458,31.0451,
 "Shevchenkove,Brovary","Shevchenkove,Brovary",47.5437,32.5371,
 "Shevchenkove,Mykolaiv","Shevchenkove,Mykolaiv",50.6458,31.0451,
 Shostka,Shostka,51.8657,33.4766,Sums’ka Oblast’
@@ -491,7 +484,6 @@ Turbiv,Turbiv,49.3463,28.7244,Vinnyts’ka Oblast’
 Turiys’k,Turiys'k,51.0833,24.5333,Volyns’ka Oblast’
 Tysmenytsia,Tysmenytsia,48.9008,24.8492,Ivano-Frankivs’ka Oblast’
 Ukrainka,Ukrainka,50.15,30.7519,Kyyivs’ka Oblast’
-Ukrainka ,Ukrainka ,50.15,30.7519,Kyyivs’ka Oblast’
 Ukrainsk,Ukrainsk,48.1,37.3667,Donets’ka Oblast’
 Uman,Uman,48.75,30.2167,Cherkas’ka Oblast’
 Uspenka,Uspenka,48.3939,39.1536,Luhans’ka Oblast’
@@ -538,7 +530,6 @@ Vuhledar,Vuhledar,47.7798,37.249,
 Vynnyky,Vynnyky,49.8156,24.1297,L’vivs’ka Oblast’
 Vynohradiv,Vynohradiv,48.1397,23.0331,Zakarpats’ka Oblast’
 Vynohradivka,Vynohradivka,48.5537,33.7283,
-Vynohradivka ,Vynohradivka ,48.5537,33.7283,
 Vyshhorod,Vyshhorod,50.5833,30.5,Kyyivs’ka Oblast’
 Vyshkovo,Vyshkovo,48.0581,23.4164,Zakarpats’ka Oblast’
 Vyshneve,Vyshneve,50.3833,30.3667,Kyyivs’ka Oblast’

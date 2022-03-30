@@ -15,6 +15,7 @@ if(ncol(df[[1]]) < 5){
 }
 df <- rbindlist(df)
 df$Name <- gsub("\\[.*","", df$Name)
+
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
 df$source <- as.numeric(gsub("\\].*","", df$source))
 
@@ -56,7 +57,6 @@ df$sourceLink <- ref[df$source]
 df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)
-df <- subset(df, select = -c(Raion) )
 df$`Held by`[df$`Held by`==""] <- "Contested" #temp fix
 
 #Population ----
@@ -81,15 +81,22 @@ last_edit <- paste(gsub("(\\d)[^0-9]+$", "\\1", last_edit), "UTC")
 df$update <- last_edit
 last_edit <- gsub("[[:space:]]", "_", last_edit)
 
-df$NameSimple <- gsub("y", "i", df$Name)
-df$NameSimple <- gsub("[[:space:]]", "", df$NameSimple)
+df$NameSimple <- df$Name
 df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
+#Fix cities with same name
+df$NameSimple[df$NameSimple=="Shevchenkove"] <- paste(df$NameSimple[df$NameSimple=="Shevchenkove"],
+                                                      df$Raion[df$NameSimple=="Shevchenkove"],
+                                                      sep = "")
+
+df$NameSimple <- gsub("y", "i", df$NameSimple)
+
+#Remove Raion
+df <- subset(df, select = -c(Raion) )
 
 # Add coordinates ----
 #Coordinates are taken from https://simplemaps.com/ and from Google when missing
 coords <- read.csv("ukraineCities.csv")
 coords$NameSimple <- gsub("y", "i", coords$city_ascii)
-coords$NameSimple <- gsub("[[:space:]]", "", coords$NameSimple)
 coords$NameSimple <- gsub("[^[:alpha:]]", "", coords$NameSimple)
 
 

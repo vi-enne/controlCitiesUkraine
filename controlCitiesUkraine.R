@@ -13,7 +13,8 @@ df <- html_table(tbls[grep("Held by",tbls,ignore.case = T)],fill = T)
 if(ncol(df[[1]]) < 5){
   df <- df[-1] #remove disclaimer if present
 }
-df <- rbindlist(df)
+df <- rbindlist(df, fill = TRUE)
+df <- df[, -c("As of")] #Remove this column for now, present in just one table
 df$Name <- gsub("\\[.*","", df$Name)
 
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")

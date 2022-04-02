@@ -14,7 +14,6 @@ if(ncol(df[[1]]) < 5){
   df <- df[-1] #remove disclaimer if present
 }
 df <- rbindlist(df, fill = TRUE)
-df <- df[, -c("As of")] #Remove this column for now, present in just one table
 df$Name <- gsub("\\[.*","", df$Name)
 
 df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
@@ -80,8 +79,15 @@ last_edit <- gsub("[[:punct:]]", "", last_edit)
 last_edit <- gsub("[[:space:]]", " ", last_edit)
 last_edit <- paste(gsub("(\\d)[^0-9]+$", "\\1", last_edit), "UTC")
 df$update <- last_edit
-last_edit <- gsub("[[:space:]]", "_", last_edit)
+# last_edit <- gsub("[[:space:]]", "_", last_edit)
 
+#As of
+df$`As of` <- gsub("\\[.*","", df$`As of`)
+df$`As of`[is.na(df$`As of`)] <- substr(last_edit, 1, nchar(last_edit)-10)
+df$`As of`[df$`As of` == ""] <- substr(last_edit, 1, nchar(last_edit)-10)
+
+
+# Simple name for matching coords
 df$NameSimple <- df$Name
 df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 #Fix cities with same name

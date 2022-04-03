@@ -60,6 +60,7 @@ df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)
 df$`Held by`[df$`Held by`==""] <- "Contested" #temp fix
 
 #Population ----
+colnames(df)[colnames(df) == "Pop."] <- "Population"
 df$Population <- gsub("[^0-9]+", "", df$Population)
 df$Population <- as.numeric(df$Population)
 

@@ -60,6 +60,8 @@ Borzna,Borzna,51.2333,32.4167,Chernihivs’ka Oblast’
 Boyarka,Boyarka,50.3292,30.2886,Kyyivs’ka Oblast’
 Bratske,Bratske,47.8636,31.5781,Mykolayivs’ka Oblast’
 Bratslav,Bratslav,48.8147,28.9447,Vinnyts’ka Oblast’
+Brazhkivka,Brazhkivka,49.0409,37.215,
+Brazhkivka ,Brazhkivka ,49.0409,37.215,
 Brianka,Brianka,48.5133,38.6431,Luhans’ka Oblast’
 Brody,Brody,50.0781,25.1542,L’vivs’ka Oblast’
 Broshniv-Osada,Broshniv-Osada,48.9994,24.1814,Ivano-Frankivs’ka Oblast’
@@ -84,6 +86,7 @@ Chervonohrad,Chervonohrad,50.3911,24.2351,
 Chervonohryhorivka,Chervonohryhorivka,47.6233,34.5309,Dnipropetrovs’ka Oblast’
 Chkalovske,Chkalovske,49.7134,36.9265,
 Chop,Chop,48.4333,22.2,Zakarpats’ka Oblast’
+Chornobayivka,Chornobayivka,46.6944,32.5417,
 Chornomorsk,Chornomorsk,46.3017,30.6569,Odes’ka Oblast’
 Chortkiv,Chortkiv,49.0167,25.8,Ternopil’s’ka Oblast’
 Chudniv,Chudniv,50.0528,28.0969,Zhytomyrs’ka Oblast’
@@ -105,6 +108,8 @@ Dolyna,Dolyna,48.9703,24.0108,Ivano-Frankivs’ka Oblast’
 Dolynska,Dolynska,48.1111,32.7648,Kirovohrads’ka Oblast’
 Donetsk,Donetsk,48.0089,37.8042,Donets’ka Oblast’
 Dovhe,Dovhe,48.3675,23.2869,Zakarpats’ka Oblast’
+Dovhenke,Dovhenke,49.8896,37.6319,
+Dovhenke ,Dovhenke ,49.8896,37.6319,
 Dovzhansk,Dovzhansk,48.0846,39.6516,Luhans’ka Oblast’
 Drabiv,Drabiv,49.9603,32.1481,Cherkas’ka Oblast’
 Drohobych,Drohobych,49.35,23.5,L’vivs’ka Oblast’
@@ -333,11 +338,14 @@ Odessa,Odessa,46.4825,30.7233,
 Okhtyrka,Okhtyrka,50.3074,34.9016,Sums’ka Oblast’
 Oleksandriia,Oleksandriia,48.6633,33.0968,
 Oleksandriiske,Oleksandriiske,48.6019,32.9889,Kirovohrads’ka Oblast’
+Oleksandrivka,Oleksandrivka,47.6914,31.2759,
+Oleksandrivka ,Oleksandrivka ,47.6914,31.2759,
 Oleksandrivsk,Oleksandrivsk,48.5833,39.1833,Luhans’ka Oblast’
 Oleshky,Oleshky,46.6199,32.7073,
 Olevsk,Olevsk,51.2278,27.6481,Zhytomyrs’ka Oblast’
 Opishnya,Opishnya,49.9564,34.612,Poltavs’ka Oblast’
 Orikhiv,Orikhiv,47.5677,35.7849,Zaporiz’ka Oblast’
+Osokorivka,Osokorivka,47.4398,33.926,
 Oster,Oster,50.9486,30.8811,Chernihivs’ka Oblast’
 Ostroh,Ostroh,50.3333,26.5167,Rivnens’ka Oblast’
 Otyniia,Otyniia,48.7339,24.8569,Ivano-Frankivs’ka Oblast’

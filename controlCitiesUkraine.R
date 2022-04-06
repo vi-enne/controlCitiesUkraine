@@ -49,7 +49,7 @@ for (i in 1:(length(ref_sharp)-1)){
 
 ref <- ref_clean
 ref <- gsub("/wiki/", "https://en.wikipedia.org/wiki/", ref)
-ref <- gsub("\\?.*", "", ref) #bonify links
+#ref <- gsub("\\?.*", "", ref) #bonify links
 df$sourceLink <- ref[df$source]
 
 

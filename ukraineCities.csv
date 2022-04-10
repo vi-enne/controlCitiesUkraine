@@ -343,8 +343,8 @@ Odessa,Odessa,46.4825,30.7233,
 Okhtyrka,Okhtyrka,50.3074,34.9016,Sums’ka Oblast’
 Oleksandriia,Oleksandriia,48.6633,33.0968,
 Oleksandriiske,Oleksandriiske,48.6019,32.9889,Kirovohrads’ka Oblast’
-Oleksandrivka,Oleksandrivka,46.6150,32.1113,
-Oleksandrivka ,Oleksandrivka ,46.6150,32.1113,
+Oleksandrivka,Oleksandrivka,46.615,32.1113,
+Oleksandrivka ,Oleksandrivka ,46.615,32.1113,
 Oleksandrivsk,Oleksandrivsk,48.5833,39.1833,Luhans’ka Oblast’
 Oleshky,Oleshky,46.6199,32.7073,
 Olevsk,Olevsk,51.2278,27.6481,Zhytomyrs’ka Oblast’
@@ -358,6 +358,9 @@ Ovidiopol,Ovidiopol,46.2667,30.4333,Odes’ka Oblast’
 Ovruch,Ovruch,51.3244,28.8081,Zhytomyrs’ka Oblast’
 Ozerne,Ozerne,50.1794,28.7361,Zhytomyrs’ka Oblast’
 Partenit,Partenit,44.5764,34.3397,"Krym, Avtonomna Respublika"
+Pavlivka,Pavlivka,47.7544,37.2181,
+"Pavlivka, Volnovakha Raion","Pavlivka, Volnovakha Raion",47.7544,37.2181,
+"Pavlivka, Volnovakha Raion ","Pavlivka, Volnovakha Raion ",47.7544,37.2181,
 Pavlohrad,Pavlohrad,48.52,35.87,Dnipropetrovs’ka Oblast’
 Pechenihy,Pechenihy,49.8647,36.9364,Kharkivs’ka Oblast’
 Pechenizhyn,Pechenizhyn,48.51,24.8892,Ivano-Frankivs’ka Oblast’
@@ -462,6 +465,8 @@ Stanytsia Luhanska,Stanytsia Luhanska,48.6667,39.4667,Luhans’ka Oblast’
 Stara Syniava,Stara Syniava,49.6,27.6167,Khmel’nyts’ka Oblast’
 Stara Vyzhivka,Stara Vyzhivka,51.4396,24.4373,Volyns’ka Oblast’
 Starobilsk,Starobilsk,49.2667,38.9167,Luhans’ka Oblast’
+Staromlynivka,Staromlynivka,47.6964,36.8325,
+Staromlynivka ,Staromlynivka ,47.6964,36.8325,
 Staryi Sambir,Staryi Sambir,49.4333,23,L’vivs’ka Oblast’
 Stavyshche,Stavyshche,49.3914,30.1917,Kyyivs’ka Oblast’
 Stepanivka,Stepanivka,50.943,34.6334,Sums’ka Oblast’

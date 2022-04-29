@@ -183,6 +183,7 @@ Kalanchak,Kalanchak,46.255,33.2906,Khersons’ka Oblast’
 Kalmiuske,Kalmiuske,47.6667,38.0667,Donets’ka Oblast’
 Kalush,Kalush,49.0442,24.3597,Ivano-Frankivs’ka Oblast’
 Kalynivka,Kalynivka,49.4472,28.5231,Vinnyts’ka Oblast’
+Kalynivske,Kalynivske,47.1142,32.9744,
 Kamianets-Podilskyi,Kamianets-Podilskyi,48.6806,26.5806,Khmel’nyts’ka Oblast’
 Kamianka,Kamianka,49.0333,32.1,
 Kamianka-Dniprovska,Kamianka-Dniprovska,47.4792,34.4232,Zaporiz’ka Oblast’
@@ -263,6 +264,7 @@ Lebyazhe,Lebyazhe,49.2596,35.3141,
 Letychiv,Letychiv,49.3833,27.6167,Khmel’nyts’ka Oblast’
 Lityn,Lityn,49.3255,28.0872,Vinnyts’ka Oblast’
 Liubotyn,Liubotyn,49.9489,35.9306,Kharkivs’ka Oblast’
+Liubyne,Liubyne,47.0789,32.6702,
 Lokhvytsya,Lokhvytsya,50.361,33.2652,Poltavs’ka Oblast’
 Lozova,Lozova,48.8892,36.3161,Kharkivs’ka Oblast’
 Lozove,Lozove,49.2092,37.5972,
@@ -277,8 +279,8 @@ Lviv,Lviv,49.8419,24.0315,L’vivs’ka Oblast’
 Lyman,Lyman,48.9861,37.8111,Donets’ka Oblast’
 Lymanske,Lymanske,46.6639,29.9708,Odes’ka Oblast’
 Lypovets,Lypovets,49.2161,29.0561,Vinnyts’ka Oblast’
-Lyptsi,Lyptsi,50.2078,36.4172,
 Lypsti ,Lypsti ,50.2078,36.4172,
+Lyptsi,Lyptsi,50.2078,36.4172,
 Lysianka,Lysianka,49.2542,30.8207,Cherkas’ka Oblast’
 Lysychansk,Lysychansk,48.9169,38.4306,Luhans’ka Oblast’
 Lyubeshiv,Lyubeshiv,51.7631,25.4992,Volyns’ka Oblast’
@@ -333,6 +335,7 @@ Nova Borova,Nova Borova,50.6922,28.6367,Zhytomyrs’ka Oblast’
 Nova Kakhovka,Nova Kakhovka,46.7667,33.3667,Khersons’ka Oblast’
 Nova Maiachka,Nova Maiachka,46.6033,33.2283,Khersons’ka Oblast’
 Nova Zburivka,Nova Zburivka,46.4529,32.4563,
+Nova Zorya,Nova Zorya,46.7425,32.0942,
 Novgorodskoye,Novgorodskoye,48.3156,37.8839,Donets’ka Oblast’
 Novhorod-Siverskyi,Novhorod-Siverskyi,51.9833,33.2667,Chernihivs’ka Oblast’
 Novi Sanzhary,Novi Sanzhary,49.3354,34.3162,Poltavs’ka Oblast’
@@ -342,7 +345,10 @@ Novohuivynske,Novohuivynske,50.2022,28.685,Zhytomyrs’ka Oblast’
 Novomoskovsk,Novomoskovsk,48.6328,35.2239,Dnipropetrovs’ka Oblast’
 Novomykolayivka,Novomykolayivka,47.9779,35.9099,Zaporiz’ka Oblast’
 Novooleksandrivka,Novooleksandrivka,47.2664,33.8736,
+Novopetrivka,Novopetrivka,47.0637,34.418,
+Novoraisk,Novoraisk,47.0086,33.4856,
 Novoselytsia,Novoselytsia,48.2167,26.2667,Chernivets’ka Oblast’
+Novotoshkivske,Novotoshkivske,48.7253,38.6325,
 Novovolynsk,Novovolynsk,50.7333,24.1667,Volyns’ka Oblast’
 Novovorontsovka,Novovorontsovka,47.4981,33.9169,
 Novovosnesenske,Novovosnesenske,47.4283,33.6014,
@@ -511,6 +517,7 @@ Synelnykove,Synelnykove,48.3178,35.5119,Dnipropetrovs’ka Oblast’
 Talne,Talne,48.8863,30.7027,Cherkas’ka Oblast’
 Tarashcha,Tarashcha,49.55,30.5,Kyyivs’ka Oblast’
 Tarutyne,Tarutyne,46.1846,29.1495,Odes’ka Oblast’
+Tavriyske,Tavriyske,46.7256,32.1025,
 Teplodar,Teplodar,46.5036,30.3244,Odes’ka Oblast’
 Teplyk,Teplyk,48.6594,29.7539,Vinnyts’ka Oblast’
 Teresva,Teresva,48,23.6992,Zakarpats’ka Oblast’
@@ -535,6 +542,7 @@ Tsyrkuny,Tsyrkuny,50.0805,36.377,
 Tulchyn,Tulchyn,48.6744,28.8497,Vinnyts’ka Oblast’
 Turbiv,Turbiv,49.3463,28.7244,Vinnyts’ka Oblast’
 Turiys’k,Turiys'k,51.0833,24.5333,Volyns’ka Oblast’
+Tyahynka,Tyahynka,46.7742,33.0539,
 Tysmenytsia,Tysmenytsia,48.9008,24.8492,Ivano-Frankivs’ka Oblast’
 Ukrainka,Ukrainka,50.15,30.7519,Kyyivs’ka Oblast’
 Ukrainsk,Ukrainsk,48.1,37.3667,Donets’ka Oblast’
@@ -550,6 +558,7 @@ Vasylkiv,Vasylkiv,50.1775,30.3217,Kyyivs’ka Oblast’
 Vasylkivka,Vasylkivka,48.2084,36.0253,Dnipropetrovs’ka Oblast’
 Vatutine,Vatutine,49.0167,31.0667,Cherkas’ka Oblast’
 Velyka Dymerka,Velyka Dymerka,50.5928,30.9103,Kyyivs’ka Oblast’
+Velyka Komyshuvakha,Velyka Komyshuvakha,49.1081,36.9894,
 Velyka Oleksandrivka,Velyka Oleksandrivka,47.3212,33.3033,
 Velyki Komiaty,Velyki Komiaty,48.2386,22.9789,Zakarpats’ka Oblast’
 Velyki Luchky,Velyki Luchky,48.42,22.5611,Zakarpats’ka Oblast’
@@ -604,9 +613,10 @@ Yuvileine,Yuvileine,48.5531,39.1742,Luhans’ka Oblast’
 Yuzhne,Yuzhne,46.6222,31.1008,Odes’ka Oblast’
 Z·hurivka,Z.hurivka,50.4976,31.7739,Kyyivs’ka Oblast’
 Zaporizhzhia,Zaporizhzhia,47.8378,35.1383,Zaporiz’ka Oblast’
-Zavody ,Zavody ,49.1542,37.0678,
-Zavody,Zavody,49.1542,37.0678,
+"Zarichne,Kramatorsk","Zarichne,Kramatorsk",49.0194,37.9208,
 Zavodske,Zavodske,50.4002,33.3908,Poltavs’ka Oblast’
+Zavody,Zavody,49.1542,37.0678,
+Zavody ,Zavody ,49.1542,37.0678,
 Zelenivka,Zelenivka,46.7149,32.6379,
 Zelenodolsk,Zelenodolsk,47.5631,33.6524,Dnipropetrovs’ka Oblast’
 Zhashkiv,Zhashkiv,49.25,30.1,Cherkas’ka Oblast’
@@ -624,10 +634,3 @@ Zolote,Zolote,48.6833,38.5167,Luhans’ka Oblast’
 Zolotonosha,Zolotonosha,49.6833,32.0333,Cherkas’ka Oblast’
 Zoria,Zoria,45.9917,29.6989,Odes’ka Oblast’
 Zvenyhorodka,Zvenyhorodka,49.0833,30.9667,Cherkas’ka Oblast’
-Kalynivske,Kalynivske,47.1142,32.9744,
-Liubyne,Liubyne,47.0789,32.6702,
-Novopetrivka,Novopetrivka,47.0637,34.418,
-Novotoshirske,Novotoshirske,,,
-Velyka Komyshuvakha,Velyka Komyshuvakha,49.1081,36.9894,
-"Zarichne,Kramatorsk","Zarichne,Kramatorsk",49.0194,37.9208,
-"Zarichne,","Zarichne,",,,

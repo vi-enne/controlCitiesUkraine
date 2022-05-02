@@ -244,6 +244,8 @@ Kremenets,Kremenets,50.1081,25.7275,Ternopil’s’ka Oblast’
 Kreminna,Kreminna,49.0422,38.2177,
 Krolevets,Krolevets,51.5489,33.3860,
 Kropyvnytskyi,Kropyvnytskyi,48.5103,32.2667,Kirovohrads’ka Oblast’
+Krymky,Krymky,49.1394,37.5642,
+Krymky ,Krymky ,49.1394,37.5642,
 Kryve Ozero,Kryve Ozero,47.9333,30.3333,Mykolayivs’ka Oblast’
 Kryvyi Rih,Kryvyi Rih,47.9086,33.3433,Dnipropetrovs’ka Oblast’
 Kryzhopil,Kryzhopil,48.3842,28.8625,Vinnyts’ka Oblast’
@@ -345,6 +347,7 @@ Novoazovsk,Novoazovsk,47.1190,38.0670,
 Novohrad-Volynskyi,Novohrad-Volynskyi,50.5833,27.6333,Zhytomyrs’ka Oblast’
 Novohuivynske,Novohuivynske,50.2022,28.6850,Zhytomyrs’ka Oblast’
 Novomoskovsk,Novomoskovsk,48.6328,35.2239,Dnipropetrovs’ka Oblast’
+Novomykhailivka,Novomykhailivka,47.8533,37.4831,
 Novomykolayivka,Novomykolayivka,47.9779,35.9099,Zaporiz’ka Oblast’
 Novooleksandrivka,Novooleksandrivka,47.2664,33.8736,
 Novopetrivka,Novopetrivka,47.0637,34.4180,
@@ -374,6 +377,7 @@ Oleksandriiske,Oleksandriiske,48.6019,32.9889,Kirovohrads’ka Oblast’
 Oleksandrivka,Oleksandrivka,46.6150,32.1113,
 Oleksandrivka ,Oleksandrivka ,46.6150,32.1113,
 Oleksandrivsk,Oleksandrivsk,48.5833,39.1833,Luhans’ka Oblast’
+Olenivka,Olenivka,47.8314,37.6600,
 Oleshky,Oleshky,46.6199,32.7073,
 Olevsk,Olevsk,51.2278,27.6481,Zhytomyrs’ka Oblast’
 Opishnya,Opishnya,49.9564,34.6120,Poltavs’ka Oblast’
@@ -547,8 +551,8 @@ Turbiv,Turbiv,49.3463,28.7244,Vinnyts’ka Oblast’
 Turiys’k,Turiys'k,51.0833,24.5333,Volyns’ka Oblast’
 Tyahynka,Tyahynka,46.7742,33.0539,
 Tysmenytsia,Tysmenytsia,48.9008,24.8492,Ivano-Frankivs’ka Oblast’
+"Ukrainka,Beryslav","Ukrainka,Beryslav",47.3231,33.7828,
 "Ukrainka,Mykolaiv","Ukrainka,Mykolaiv",46.8256,32.1411,
-"Ukrainka,Beryslav","Ukrainka,Beryslav",47.3231, 33.7828,
 Ukrainsk,Ukrainsk,48.1000,37.3667,Donets’ka Oblast’
 Uman,Uman,48.7500,30.2167,Cherkas’ka Oblast’
 Uspenka,Uspenka,48.3939,39.1536,Luhans’ka Oblast’
@@ -619,7 +623,7 @@ Yuvileine,Yuvileine,48.5531,39.1742,Luhans’ka Oblast’
 Yuzhne,Yuzhne,46.6222,31.1008,Odes’ka Oblast’
 Z·hurivka,Z.hurivka,50.4976,31.7739,Kyyivs’ka Oblast’
 Zaporizhzhia,Zaporizhzhia,47.8378,35.1383,Zaporiz’ka Oblast’
-"Zarichne ","Zarichne ",49.0194,37.9208,
+Zarichne ,Zarichne ,49.0194,37.9208,
 Zavodske,Zavodske,50.4002,33.3908,Poltavs’ka Oblast’
 Zavody,Zavody,49.1542,37.0678,
 Zavody ,Zavody ,49.1542,37.0678,

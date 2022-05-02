@@ -387,8 +387,6 @@ Ovruch,Ovruch,51.3244,28.8081,Zhytomyrs’ka Oblast’
 Ozerne,Ozerne,50.1794,28.7361,Zhytomyrs’ka Oblast’
 Partenit,Partenit,44.5764,34.3397,"Krym, Avtonomna Respublika"
 Pavlivka,Pavlivka,47.7544,37.2181,
-"Pavlivka, Volnovakha Raion","Pavlivka, Volnovakha Raion",47.7544,37.2181,
-"Pavlivka, Volnovakha Raion ","Pavlivka, Volnovakha Raion ",47.7544,37.2181,
 Pavlohrad,Pavlohrad,48.5200,35.8700,Dnipropetrovs’ka Oblast’
 Pechenihy,Pechenihy,49.8647,36.9364,Kharkivs’ka Oblast’
 Pechenizhyn,Pechenizhyn,48.5100,24.8892,Ivano-Frankivs’ka Oblast’
@@ -549,7 +547,8 @@ Turbiv,Turbiv,49.3463,28.7244,Vinnyts’ka Oblast’
 Turiys’k,Turiys'k,51.0833,24.5333,Volyns’ka Oblast’
 Tyahynka,Tyahynka,46.7742,33.0539,
 Tysmenytsia,Tysmenytsia,48.9008,24.8492,Ivano-Frankivs’ka Oblast’
-Ukrainka,Ukrainka,50.1500,30.7519,Kyyivs’ka Oblast’
+"Ukrainka,Mykolaiv","Ukrainka,Mykolaiv",46.8256,32.1411,
+"Ukrainka,Beryslav","Ukrainka,Beryslav",47.3231, 33.7828,
 Ukrainsk,Ukrainsk,48.1000,37.3667,Donets’ka Oblast’
 Uman,Uman,48.7500,30.2167,Cherkas’ka Oblast’
 Uspenka,Uspenka,48.3939,39.1536,Luhans’ka Oblast’

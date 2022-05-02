@@ -98,6 +98,9 @@ df$NameSimple[df$NameSimple=="Shevchenkove"] <- paste(df$NameSimple[df$NameSimpl
 df$NameSimple[df$NameSimple=="Zarichne"] <- paste(df$NameSimple[df$NameSimple=="Zarichne"],
                                                       df$Raion[df$NameSimple=="Zarichne"],
                                                       sep = "")
+df$NameSimple[df$NameSimple=="Zarichne"] <- paste(df$NameSimple[df$NameSimple=="Ukrainka"],
+                                                      df$Raion[df$NameSimple=="Ukrainka"],
+                                                      sep = "")
 
 df$NameSimple <- gsub("y", "i", df$NameSimple)
 

@@ -95,10 +95,7 @@ df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 df$NameSimple[df$NameSimple=="Shevchenkove"] <- paste(df$NameSimple[df$NameSimple=="Shevchenkove"],
                                                       df$Raion[df$NameSimple=="Shevchenkove"],
                                                       sep = "")
-df$NameSimple[df$NameSimple=="Zarichne"] <- paste(df$NameSimple[df$NameSimple=="Zarichne"],
-                                                      df$Raion[df$NameSimple=="Zarichne"],
-                                                      sep = "")
-df$NameSimple[df$NameSimple=="Zarichne"] <- paste(df$NameSimple[df$NameSimple=="Ukrainka"],
+df$NameSimple[df$NameSimple=="Ukrainka"] <- paste(df$NameSimple[df$NameSimple=="Ukrainka"],
                                                       df$Raion[df$NameSimple=="Ukrainka"],
                                                       sep = "")
 

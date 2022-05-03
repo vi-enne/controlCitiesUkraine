@@ -42,6 +42,7 @@ Bilmak,Bilmak,47.3589,36.6500,Zaporiz’ka Oblast’
 Bilohirsk,Bilohirsk,45.0544,34.6022,"Krym, Avtonomna Respublika"
 Bilohorodka,Bilohorodka,50.4000,30.2167,Kyyivs’ka Oblast’
 Bilokurakyne,Bilokurakyne,49.5167,38.7167,Luhans’ka Oblast’
+Bilolutsk,Bilolutsk,49.4847,39.1333,
 Bilopillya,Bilopillya,51.1532,34.3025,Sums’ka Oblast’
 Bilovodsk,Bilovodsk,49.1992,39.5756,Luhans’ka Oblast’
 Bilozerka,Bilozerka,46.6333,32.4333,Khersons’ka Oblast’
@@ -80,6 +81,8 @@ Buzova,Buzova,50.4212,30.0448,
 Chaplynka,Chaplynka,46.3618,33.5327,
 Chechelnyk,Chechelnyk,48.2122,29.3622,Vinnyts’ka Oblast’
 Chemerivtsi,Chemerivtsi,49.0000,26.3667,Khmel’nyts’ka Oblast’
+Cherkaski Tyshky,Cherkaski Tyshky,50.1172,36.3753,
+Cherkaski Tyshky ,Cherkaski Tyshky ,50.1172,36.3753,
 Cherkasy,Cherkasy,49.4444,32.0597,Cherkas’ka Oblast’
 Chernihiv,Chernihiv,51.4939,31.2947,Chernihivs’ka Oblast’
 Chernihivka,Chernihivka,47.1942,36.2023,Zaporiz’ka Oblast’
@@ -238,6 +241,7 @@ Krasnohrad,Krasnohrad,49.3730,35.4614,
 Krasnoilsk,Krasnoilsk,48.0167,25.5833,Chernivets’ka Oblast’
 Krasnokutsk,Krasnokutsk,50.0567,35.1492,Kharkivs’ka Oblast’
 Krasnopillya,Krasnopillya,50.7732,35.2717,Sums’ka Oblast’
+Krasnorichenske,Krasnorichenske,49.2103,38.2075,
 Krasnyi Luch,Krasnyi Luch,48.1406,38.9367,
 Kremenchuk,Kremenchuk,49.0775,33.4239,Poltavs’ka Oblast’
 Kremenets,Kremenets,50.1081,25.7275,Ternopil’s’ka Oblast’
@@ -351,6 +355,7 @@ Novomykhailivka,Novomykhailivka,47.8533,37.4831,
 Novomykolayivka,Novomykolayivka,47.9779,35.9099,Zaporiz’ka Oblast’
 Novooleksandrivka,Novooleksandrivka,47.2664,33.8736,
 Novopetrivka,Novopetrivka,47.0637,34.4180,
+Novopskov,Novopskov,49.4847,39.1333,
 Novoraisk,Novoraisk,47.0086,33.4856,
 Novoselytsia,Novoselytsia,48.2167,26.2667,Chernivets’ka Oblast’
 Novotoshkivske,Novotoshkivske,48.7253,38.6325,
@@ -450,6 +455,8 @@ Rozsoshentsi,Rozsoshentsi,49.5406,34.5042,Poltavs’ka Oblast’
 Rubizhne,Rubizhne,49.0167,38.3667,Luhans’ka Oblast’
 Rudno,Rudno,49.8404,23.8747,L’vivs’ka Oblast’
 Ruska Lozova,Ruska Lozova,50.1406,36.2794,
+Ruski Tyshky,Ruski Tyshky,50.1356,36.4031,
+Ruski Tyshky ,Ruski Tyshky ,50.1356,36.4031,
 Rzhyshchiv,Rzhyshchiv,49.9611,31.0436,Kyyivs’ka Oblast’
 Saky,Saky,45.1336,33.5772,"Krym, Avtonomna Respublika"
 Sambir,Sambir,49.5167,23.2000,L’vivs’ka Oblast’
@@ -539,6 +546,8 @@ Tomakivka,Tomakivka,47.8163,34.7471,Dnipropetrovs’ka Oblast’
 Tomashpil,Tomashpil,48.5471,28.5157,Vinnyts’ka Oblast’
 Toretsk,Toretsk,48.4000,37.8333,Donets’ka Oblast’
 Torske,Torske,49.0150,37.9644,
+"Troitske,Sievierodonetsk","Troitske,Sievierodonetsk",48.5239,38.3758,
+"Troitske,Svatove","Troitske,Svatove",49.9047,38.3017,
 Trostianets,Trostianets,50.4666,34.9500,
 Trudolyubivka,Trudolyubivka,47.4478,33.6967,
 Trudolyubivka ,Trudolyubivka ,47.4478,33.6967,

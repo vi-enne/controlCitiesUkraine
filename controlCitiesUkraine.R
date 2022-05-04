@@ -116,7 +116,7 @@ coords$NameSimple <- gsub("[^[:alpha:]]", "", coords$NameSimple)
 
 
 temp <- merge(df, coords, all.x=T) 
-df <- subset(temp, select = -c(NameSimple, city, city_ascii, admin_name) )
+df <- subset(temp, select = -c(NameSimple, city, city_ascii) )
 
 df[is.na(df)] <- ""
 

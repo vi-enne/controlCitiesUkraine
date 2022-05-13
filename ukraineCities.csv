@@ -142,6 +142,7 @@ Haisyn,Haisyn,48.8094,29.3906
 Halych,Halych,49.1128,24.7217
 Henichesk,Henichesk,46.1769,34.7989
 Hirnyk,Hirnyk,48.0500,37.3667
+Hirske,Hirske,48.7519,38.4950
 Hlukhiv,Hlukhiv,51.6765,33.9078
 Hnivan,Hnivan,49.0833,28.3500
 Hola Prystan,Hola Prystan,46.5167,32.5167
@@ -384,8 +385,10 @@ Novovosnesenske ,Novovosnesenske ,47.4283,33.6014
 Novoyavorovskoye,Novoyavorovskoye,49.9311,23.5731
 Novyi Bykiv,Novyi Bykiv,50.5974,31.6720
 Novyi Rozdil,Novyi Rozdil,49.4703,24.1300
+Nyzhne,Nyzhne,48.7714,38.6200
 Nyzhnia Duvanka,Nyzhnia Duvanka,49.5831,38.1689
 Nyzhnia Krynka,Nyzhnia Krynka,48.1144,38.1606
+Nyzhnie,Nyzhnie,48.7714,38.6200
 Nyzhnohirskyi,Nyzhnohirskyi,45.4464,34.7344
 Obukhiv,Obukhiv,50.1000,30.6167
 Obukhivka,Obukhivka,48.5442,34.8664
@@ -404,6 +407,7 @@ Oleshky,Oleshky,46.6199,32.7073
 Olevsk,Olevsk,51.2278,27.6481
 Opishnya,Opishnya,49.9564,34.6120
 Orikhiv,Orikhiv,47.5677,35.7849
+Orikhove,Orikhove,48.7211,38.5725
 Osokorivka,Osokorivka,47.4398,33.9260
 Oster,Oster,50.9486,30.8811
 Ostroh,Ostroh,50.3333,26.5167
@@ -571,6 +575,7 @@ Tomakivka,Tomakivka,47.8163,34.7471
 Tomashpil,Tomashpil,48.5471,28.5157
 Toretsk,Toretsk,48.4000,37.8333
 Torske,Torske,49.0150,37.9644
+Toshkivka,Toshkivka,48.7797,38.5589
 "Troitske,Sievierodonetsk","Troitske,Sievierodonetsk",48.5239,38.3758
 "Troitske,Svatove","Troitske,Svatove",49.9047,38.3017
 Trostianets,Trostianets,50.4666,34.9500
@@ -628,6 +633,7 @@ Volodarka,Volodarka,49.5200,29.9153
 Volodymyr,Volodymyr,50.8482,24.3257
 Volodymyr-Volynskyi,Volodymyr-Volynskyi,50.8481,24.3222
 Volovets,Volovets,48.7242,23.2000
+Voronove,Voronove,48.8986,38.5731
 Voronovytsia,Voronovytsia,49.0989,28.6831
 Vorozhba,Vorozhba,51.1749,34.2299
 Vorzel,Vorzel,50.5500,30.1500
@@ -682,5 +688,3 @@ Zolote,Zolote,48.6833,38.5167
 Zolotonosha,Zolotonosha,49.6833,32.0333
 Zoria,Zoria,45.9917,29.6989
 Zvenyhorodka,Zvenyhorodka,49.0833,30.9667
-Nyzhne,Nyzhne,48.7714,38.6200
-Toshkivka,Toshkivka,48.7797,38.5589

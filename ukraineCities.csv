@@ -58,7 +58,6 @@ Bohorodchany,Bohorodchany,48.8000,24.5333
 Bolekhiv,Bolekhiv,49.0669,23.8514
 Bolhrad,Bolhrad,45.6855,28.6134
 Borivske,Borivske,48.8678,38.5664
-Borivske ,Borivske ,48.8678,38.5664
 Borodyanka,Borodyanka,50.6439,29.9339
 Borova,Borova,49.3817,37.6408
 Boryslav,Boryslav,49.2881,23.4267
@@ -68,7 +67,6 @@ Boyarka,Boyarka,50.3292,30.2886
 Bratske,Bratske,47.8636,31.5781
 Bratslav,Bratslav,48.8147,28.9447
 Brazhkivka,Brazhkivka,49.0409,37.2150
-Brazhkivka ,Brazhkivka ,49.0409,37.2150
 Brianka,Brianka,48.5133,38.6431
 Brody,Brody,50.0781,25.1542
 Broshniv-Osada,Broshniv-Osada,48.9994,24.1814
@@ -85,7 +83,6 @@ Chaplynka,Chaplynka,46.3618,33.5327
 Chechelnyk,Chechelnyk,48.2122,29.3622
 Chemerivtsi,Chemerivtsi,49.0000,26.3667
 Cherkaski Tyshky,Cherkaski Tyshky,50.1172,36.3753
-Cherkaski Tyshky ,Cherkaski Tyshky ,50.1172,36.3753
 Cherkasy,Cherkasy,49.4444,32.0597
 Chernihiv,Chernihiv,51.4939,31.2947
 Chernihivka,Chernihivka,47.1942,36.2023
@@ -116,13 +113,11 @@ Dobroslav,Dobroslav,46.8200,30.9450
 Dobrotvir,Dobrotvir,50.2056,24.3864
 Dobrovelychkivka,Dobrovelychkivka,48.3500,31.1667
 Dobryanka,Dobryanka,52.0601,31.1837
-Dobryanka ,Dobryanka ,52.0601,31.1837
 Dolyna,Dolyna,48.9703,24.0108
 Dolynska,Dolynska,48.1111,32.7648
 Donetsk,Donetsk,48.0089,37.8042
 Dovhe,Dovhe,48.3675,23.2869
 Dovhenke,Dovhenke,49.8896,37.6319
-Dovhenke ,Dovhenke ,49.8896,37.6319
 Dovzhansk,Dovzhansk,48.0846,39.6516
 Drabiv,Drabiv,49.9603,32.1481
 Drohobych,Drohobych,49.3500,23.5000
@@ -209,7 +204,6 @@ Khmilnyk,Khmilnyk,49.5500,27.9667
 Khodoriv,Khodoriv,49.4100,24.3094
 Khoroshiv,Khoroshiv,50.6000,28.4500
 Khotimlya,Khotimlya,50.0228,36.8758
-Khotimlya ,Khotimlya ,50.0228,36.8758
 Khotyn,Khotyn,48.5078,26.4860
 Khreshchenivka,Khreshchenivka,47.3853,33.8217
 Khrestivka,Khrestivka,48.1500,38.3667
@@ -256,7 +250,6 @@ Kreminna,Kreminna,49.0422,38.2177
 Krolevets,Krolevets,51.5489,33.3860
 Kropyvnytskyi,Kropyvnytskyi,48.5103,32.2667
 Krymky,Krymky,49.1394,37.5642
-Krymky ,Krymky ,49.1394,37.5642
 Kryve Ozero,Kryve Ozero,47.9333,30.3333
 Kryvyi Rih,Kryvyi Rih,47.9086,33.3433
 Kryzhopil,Kryzhopil,48.3842,28.8625
@@ -295,7 +288,6 @@ Lviv,Lviv,49.8419,24.0315
 Lyman,Lyman,48.9861,37.8111
 Lymanske,Lymanske,46.6639,29.9708
 Lypovets,Lypovets,49.2161,29.0561
-Lypsti ,Lypsti ,50.2078,36.4172
 Lyptsi,Lyptsi,50.2078,36.4172
 Lysianka,Lysianka,49.2542,30.8207
 Lysychansk,Lysychansk,48.9169,38.4306
@@ -338,7 +330,6 @@ Myrne,Myrne,47.4717,35.5983
 Myrnohrad,Myrnohrad,48.3022,37.2614
 Myronivka,Myronivka,49.6500,30.9833
 Myronivskyi,Myronivskyi,48.4667,38.2767
-Myronivskyi ,Myronivskyi ,48.4667,38.2767
 Nadvirna,Nadvirna,48.6333,24.5833
 Nedryhayliv,Nedryhayliv,50.8332,33.8799
 Nemishayeve,Nemishayeve,50.5624,30.0925
@@ -365,7 +356,7 @@ Novoazovsk,Novoazovsk,47.1190,38.0670
 Novohrad-Volynskyi,Novohrad-Volynskyi,50.5833,27.6333
 Novohuivynske,Novohuivynske,50.2022,28.6850
 Novoluhanske,Novoluhanske,48.4317,38.1747
-Novomaiorske ,Novomaiorske ,47.7350,37.0378
+Novomaiorske,Novomaiorske,47.7350,37.0378
 Novomoskovsk,Novomoskovsk,48.6328,35.2239
 Novomykhailivka,Novomykhailivka,47.8533,37.4831
 Novomykolayivka,Novomykolayivka,47.9779,35.9099
@@ -373,15 +364,14 @@ Novooleksandrivka,Novooleksandrivka,47.2664,33.8736
 Novopetrivka,Novopetrivka,47.0637,34.4180
 Novopskov,Novopskov,49.4847,39.1333
 Novoraisk,Novoraisk,47.0086,33.4856
+Novoselivka,Novoselivka,49.0703,37.6914
 Novoselytsia,Novoselytsia,48.2167,26.2667
 Novosilka,Novosilka,47.8389,36.6853
-Novosilka ,Novosilka ,47.8389,36.6853
 Novotoshkivske,Novotoshkivske,48.7253,38.6325
 Novotroitske,Novotroitske,47.7172,37.5761
 Novovolynsk,Novovolynsk,50.7333,24.1667
 Novovorontsovka,Novovorontsovka,47.4981,33.9169
 Novovosnesenske,Novovosnesenske,47.4283,33.6014
-Novovosnesenske ,Novovosnesenske ,47.4283,33.6014
 Novoyavorovskoye,Novoyavorovskoye,49.9311,23.5731
 Novyi Bykiv,Novyi Bykiv,50.5974,31.6720
 Novyi Rozdil,Novyi Rozdil,49.4703,24.1300
@@ -400,7 +390,6 @@ Okhtyrka,Okhtyrka,50.3074,34.9016
 Oleksandriia,Oleksandriia,48.6633,33.0968
 Oleksandriiske,Oleksandriiske,48.6019,32.9889
 Oleksandrivka,Oleksandrivka,46.6150,32.1113
-Oleksandrivka ,Oleksandrivka ,46.6150,32.1113
 Oleksandrivsk,Oleksandrivsk,48.5833,39.1833
 Olenivka,Olenivka,47.8314,37.6600
 Oleshky,Oleshky,46.6199,32.7073
@@ -423,7 +412,6 @@ Pechenizhyn,Pechenizhyn,48.5100,24.8892
 Perechyn,Perechyn,48.7333,22.4667
 Perehinske,Perehinske,48.8103,24.1819
 Peremoha,Peremoha,50.1172,36.6667
-Peremoha ,Peremoha ,50.1172,36.6667
 Pereshchepyne,Pereshchepyne,49.0179,35.3598
 Perevalsk,Perevalsk,48.4333,38.8167
 Pereyaslav-Khmel’nyts’kyy,Pereyaslav-Khmel'nyts'kyy,50.0650,31.4450
@@ -455,7 +443,6 @@ Popivka,Popivka,51.2189,33.1175
 Posad-Pokrovske,Posad-Pokrovske,46.8064,32.2561
 Pravdyne,Pravdyne,46.7381,32.2044
 Protopopivka,Protopopivka,49.2425,36.9133
-Protopopivka ,Protopopivka ,49.2425,36.9133
 Pryazovske,Pryazovske,46.7378,35.6416
 Prybuzke,Prybuzke,46.7390,31.8824
 Pryluky,Pryluky,50.6000,32.4000
@@ -483,7 +470,6 @@ Rubizhne,Rubizhne,49.0167,38.3667
 Rudno,Rudno,49.8404,23.8747
 Ruska Lozova,Ruska Lozova,50.1406,36.2794
 Ruski Tyshky,Ruski Tyshky,50.1356,36.4031
-Ruski Tyshky ,Ruski Tyshky ,50.1356,36.4031
 Rzhyshchiv,Rzhyshchiv,49.9611,31.0436
 Saky,Saky,45.1336,33.5772
 Sambir,Sambir,49.5167,23.2000
@@ -537,7 +523,6 @@ Stara Syniava,Stara Syniava,49.6000,27.6167
 Stara Vyzhivka,Stara Vyzhivka,51.4396,24.4373
 Starobilsk,Starobilsk,49.2667,38.9167
 Staromlynivka,Staromlynivka,47.6964,36.8325
-Staromlynivka ,Staromlynivka ,47.6964,36.8325
 Staryi Saltiv,Staryi Saltiv,50.0779,36.7898
 Staryi Sambir,Staryi Sambir,49.4333,23.0000
 Stavyshche,Stavyshche,49.3914,30.1917
@@ -580,7 +565,6 @@ Toshkivka,Toshkivka,48.7797,38.5589
 "Troitske,Svatove","Troitske,Svatove",49.9047,38.3017
 Trostianets,Trostianets,50.4666,34.9500
 Trudolyubivka,Trudolyubivka,47.4478,33.6967
-Trudolyubivka ,Trudolyubivka ,47.4478,33.6967
 Truskavets,Truskavets,49.2806,23.5050
 Tsarychanka,Tsarychanka,48.9432,34.4748
 Tsuman,Tsuman,50.8333,25.8833
@@ -628,6 +612,7 @@ Vilshany,Vilshany,50.0533,35.8847
 Vinkivtsi,Vinkivtsi,49.0333,27.2333
 Vinnytsia,Vinnytsia,49.2372,28.4672
 Virnopillya,Virnopillya,49.0344,37.1256
+Voevodivka,Voevodivka,48.9730,38.4463
 Volnovakha,Volnovakha,47.5951,37.4831
 Volodarka,Volodarka,49.5200,29.9153
 Volodymyr,Volodymyr,50.8482,24.3257
@@ -666,10 +651,9 @@ Yuvileine,Yuvileine,48.5531,39.1742
 Yuzhne,Yuzhne,46.6222,31.1008
 Z·hurivka,Z.hurivka,50.4976,31.7739
 Zaporizhzhia,Zaporizhzhia,47.8378,35.1383
-Zarichne ,Zarichne ,49.0194,37.9208
+Zarichne,Zarichne,49.0194,37.9208
 Zavodske,Zavodske,50.4002,33.3908
 Zavody,Zavody,49.1542,37.0678
-Zavody ,Zavody ,49.1542,37.0678
 Zelene Pole,Zelene Pole,47.8300,36.6208
 Zelenivka,Zelenivka,46.7149,32.6379
 Zelenodolsk,Zelenodolsk,47.5631,33.6524

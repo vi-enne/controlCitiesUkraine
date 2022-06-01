@@ -149,5 +149,7 @@ if(length(missingCities)){
   newCoords <- data.frame(city = missingCities, city_ascii = missingCities, 
                           Lat = rep("", length(missingCities)), Lon = rep("", length(missingCities)))
   coords <- unique(rbind(coords, newCoords))
+  coords$Lat = as.numeric(coords$Lat)
+  coords$Lon = as.numeric(coords$Lon)
   write.csv(coords, "ukraineCities.csv", row.names = F)
 }

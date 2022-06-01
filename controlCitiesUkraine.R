@@ -143,7 +143,7 @@ if(df$update[nrow(df)] != total$update[nrow(total)]){
 }
 
 #Missing coords
-missingCities <- df$Name[df$Lat==""]
+missingCities <- temp$NameSimple[is.na(df$Lat)]
 if(length(missingCities)){
   coords <- subset(coords, select = -c(NameSimple) )
   newCoords <- data.frame(city = missingCities, city_ascii = missingCities, 

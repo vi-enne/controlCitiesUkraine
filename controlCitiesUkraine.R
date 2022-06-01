@@ -142,3 +142,12 @@ if(df$update[nrow(df)] != total$update[nrow(total)]){
            fileEncoding = "UTF-8")
 }
 
+#Missing coords
+missingCities <- df$Name[df$Lat==""]
+if(length(missingCities)){
+  coords <- subset(coords, select = -c(NameSimple) )
+  newCoords <- data.frame(city = missingCities, city_ascii = missingCities, 
+                          Lat = rep("", length(missingCities)), Lon = rep("", length(missingCities)))
+  coords <- unique(rbind(coords, newCoords))
+  write.csv(coords, "ukraineCities.csv", row.names = F)
+}

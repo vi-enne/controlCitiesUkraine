@@ -104,6 +104,11 @@ df$NameSimple[df$NameSimple=="Troitske"] <- paste(df$NameSimple[df$NameSimple=="
                                                   df$Raion[df$NameSimple=="Troitske"],
                                                   sep = "")
 
+df$NameSimple[df$NameSimple=="Kamianske"] <- paste(df$NameSimple[df$NameSimple=="Kamianske"],
+                                                  df$Raion[df$NameSimple=="Kamianske"],
+                                                  sep = "")
+
+
 df$NameSimple <- gsub("y", "i", df$NameSimple)
 
 #Remove Raion

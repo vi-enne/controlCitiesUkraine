@@ -160,5 +160,6 @@ if(length(missingCities)){
   coords <- unique(rbind(coords, newCoords))
   coords$Lat = as.numeric(coords$Lat)
   coords$Lon = as.numeric(coords$Lon)
+  coords = coords[!is.na(coords$city),]
   write.csv(coords, "ukraineCities.csv", row.names = F)
 }

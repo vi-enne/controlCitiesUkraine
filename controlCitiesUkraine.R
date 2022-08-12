@@ -14,9 +14,11 @@ if(ncol(df[[1]]) < 5){
   df <- df[-1] #remove disclaimer if present
 }
 df <- rbindlist(df, fill = TRUE)
+df <- data.frame(df)
+df <- df[,-ncol(df)]
 df$Name <- gsub("\\[.*","", df$Name)
 
-df <- separate(data = df, col = "Held by", into = c("Held by", "source"), sep = "\\[")
+df <- separate(data = df, col = "Held.by", into = c("Held by", "source"), sep = "\\[")
 df$source <- as.numeric(gsub("\\].*","", df$source))
 
 # References ----
@@ -65,12 +67,14 @@ df$Population <- gsub("[^0-9]+", "", df$Population)
 df$Population <- as.numeric(df$Population)
 
 #More info ----
-df$`More information` <- gsub("\\[.*","", df$`More information`)
-df$`More information` <- gsub("Awarded"," Awarded", df$`More information`)
-df$`More information` <- gsub("Present military control in Kyiv","", df$`More information`)
-df$`More information` <- gsub("Present control in Mariupol","", df$`More information`)
-df$`More information` <- gsub("Present situation in Mariupol","", df$`More information`)
-df$`More information` <- gsub("\\.","\\. ", df$`More information`)
+df$More.information <- gsub("\\[.*","", df$More.information)
+df$More.information <- gsub("Awarded"," Awarded", df$More.information)
+df$More.information <- gsub("Present military control in Kyiv","", df$More.information)
+df$More.information <- gsub("Present control in Mariupol","", df$More.information)
+df$More.information <- gsub("Present situation in Mariupol","", df$More.information)
+df$More.information <- gsub("\\.","\\. ", df$More.information)
+colnames(df)[colnames(df) == "More.information"] <- "More information"
+
 
 #Last edit ----
 last_edit <- html_text(html_nodes(webpage, "footer #footer-info-lastmod"))
@@ -85,10 +89,10 @@ df$update <- last_edit
 # last_edit <- gsub("[[:space:]]", "_", last_edit)
 
 #As of
-df$`As of` <- gsub("\\[.*","", df$`As of`)
-df$`As of`[is.na(df$`As of`)] <- substr(last_edit, 1, nchar(last_edit)-10)
-df$`As of`[df$`As of` == ""] <- substr(last_edit, 1, nchar(last_edit)-10)
-
+df$As.of <- gsub("\\[.*","", df$As.of)
+df$As.of[is.na(df$As.of)] <- substr(last_edit, 1, nchar(last_edit)-10)
+df$As.of[df$As.of == ""] <- substr(last_edit, 1, nchar(last_edit)-10)
+colnames(df)[colnames(df) == "As.of"] <- "As of"
 
 # Simple name for matching coords
 df$NameSimple <- df$Name

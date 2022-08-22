@@ -15,7 +15,7 @@ if(ncol(df[[1]]) < 5){
 }
 df <- rbindlist(df, fill = TRUE)
 df <- data.frame(df)
-df <- df[,-ncol(df)]
+# df <- df[,-ncol(df)]
 df$Name <- gsub("\\[.*","", df$Name)
 
 df <- separate(data = df, col = "Held.by", into = c("Held by", "source"), sep = "\\[")

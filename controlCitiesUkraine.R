@@ -99,10 +99,10 @@ df$NameSimple <- df$Name
 df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 #Fix cities with same name
 sameName <- c("Shevchenkove", "Ukrainka", "Troitske", "Kamianske", "Rubizhne", "Petropavlivka")
-for (i in 1:(length(sameName)){
+for (i in 1:length(sameName)){
   df$NameSimple[df$NameSimple==sameName[i]] <- paste(df$NameSimple[df$NameSimple==sameName[i]],
-                                                      df$Raion[df$NameSimple==sameName[i]],
-                                                      sep = "")
+                                                     df$Raion[df$NameSimple==sameName[i]],
+                                                     sep = "")
 }
 
 df$NameSimple <- gsub("y", "i", df$NameSimple)
@@ -135,12 +135,12 @@ write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", 
 total <- read.csv("output/Cities_and_towns_during_the_Russo-Ukrainian_War_total.csv", 
                   fileEncoding = "UTF-8", sep = ",", check.names=FALSE)
 if(df$update[nrow(df)] != total$update[nrow(total)]){
- df <- rbind(total, df)
- df[is.na(df)] <- ""
- df <- unique(df)
- write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
-           row.names = F,
-           fileEncoding = "UTF-8")
+  df <- rbind(total, df)
+  df[is.na(df)] <- ""
+  df <- unique(df)
+  write.csv(df, paste0("output/Cities_and_towns_during_the_Russo-Ukrainian_War_", "total", ".csv"),
+            row.names = F,
+            fileEncoding = "UTF-8")
 }
 
 #Missing coords

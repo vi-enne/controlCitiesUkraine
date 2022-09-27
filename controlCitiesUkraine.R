@@ -98,24 +98,12 @@ colnames(df)[colnames(df) == "As.of"] <- "As of"
 df$NameSimple <- df$Name
 df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 #Fix cities with same name
-df$NameSimple[df$NameSimple=="Shevchenkove"] <- paste(df$NameSimple[df$NameSimple=="Shevchenkove"],
-                                                      df$Raion[df$NameSimple=="Shevchenkove"],
+sameName <- c("Shevchenkove", "Ukrainka", "Troitske", "Kamianske", "Rubizhne", "Petropavlivka")
+for (i in 1:(length(sameName)){
+  df$NameSimple[df$NameSimple==sameName[i]] <- paste(df$NameSimple[df$NameSimple==sameName[i]],
+                                                      df$Raion[df$NameSimple==sameName[i]],
                                                       sep = "")
-df$NameSimple[df$NameSimple=="Ukrainka"] <- paste(df$NameSimple[df$NameSimple=="Ukrainka"],
-                                                      df$Raion[df$NameSimple=="Ukrainka"],
-                                                      sep = "")
-df$NameSimple[df$NameSimple=="Troitske"] <- paste(df$NameSimple[df$NameSimple=="Troitske"],
-                                                  df$Raion[df$NameSimple=="Troitske"],
-                                                  sep = "")
-
-df$NameSimple[df$NameSimple=="Kamianske"] <- paste(df$NameSimple[df$NameSimple=="Kamianske"],
-                                                  df$Raion[df$NameSimple=="Kamianske"],
-                                                  sep = "")
-
-df$NameSimple[df$NameSimple=="Rubizhne"] <- paste(df$NameSimple[df$NameSimple=="Rubizhne"],
-                                                   df$Raion[df$NameSimple=="Rubizhne"],
-                                                   sep = "")
-
+}
 
 df$NameSimple <- gsub("y", "i", df$NameSimple)
 

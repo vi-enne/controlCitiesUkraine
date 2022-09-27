@@ -434,7 +434,8 @@
 "Pershotravensk","Pershotravensk",48.3464,36.4044
 "Pervomaisk","Pervomaisk",48.6333,38.5167
 "Pervomaiskyi","Pervomaiskyi",49.3869,36.2142
-"Petropavlivka","Petropavlivka",48.4549,36.4394
+"Petropavlivka,Kupiansk","Petropavlivka,Kupiansk",49.720833,37.717222
+"Petropavlivka,Beryslav","Petropavlivka,Beryslav",47.2925,33.569444
 "Petropavlivsâ€™ka Borshchahivka","Petropavlivs'ka Borshchahivka",50.4378,30.3439
 "Piatykhatky","Piatykhatky",48.4126,33.7034
 "Pidhorodne","Pidhorodne",48.5737,35.0966
@@ -753,5 +754,3 @@
 "Tavilzhanka","Tavilzhanka",49.848056,37.773056
 "Maliivka","Maliivka",49.244722,37.705
 "Shevchenko","Shevchenko",48.22,37.145278
-"PetropavlivkaBerislav","PetropavlivkaBerislav",NA,NA
-"PetropavlivkaKupiansk","PetropavlivkaKupiansk",NA,NA

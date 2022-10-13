@@ -98,7 +98,7 @@ colnames(df)[colnames(df) == "As.of"] <- "As of"
 df$NameSimple <- df$Name
 df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 #Fix cities with same name
-sameName <- c("Shevchenkove", "Ukrainka", "Troitske", "Kamianske", "Rubizhne", "Petropavlivka")
+sameName <- c("Shevchenkove", "Ukrainka", "Troitske", "Kamianske", "Rubizhne", "Petropavlivka", "Novoselivka")
 for (i in 1:length(sameName)){
   df$NameSimple[df$NameSimple==sameName[i]] <- paste(df$NameSimple[df$NameSimple==sameName[i]],
                                                      df$Raion[df$NameSimple==sameName[i]],

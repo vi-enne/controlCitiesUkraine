@@ -53,7 +53,8 @@
 "Bilovodsk","Bilovodsk",49.1992,39.5756
 "Bilozerka","Bilozerka",46.6333,32.4333
 "Bilyaivka","Bilyaivka",47.3244,33.7019
-"Blahodatne","Blahodatne",46.7897,32.3456
+"Blahodatne,Kherson","Blahodatne,Kherson",46.7897,32.3456
+"Blahodatne,Mykolaiv","Blahodatne,Mykolaiv",47.0325,32.547222
 "Blahovishchenske","Blahovishchenske",48.3197,30.2353
 "Bobrovytsia","Bobrovytsia",50.7333,31.3833
 "Bobrynets","Bobrynets",48.0578,32.1581
@@ -305,7 +306,8 @@
 "Lyubomlâ€™","Lyuboml'",51.2158,24.0408
 "Mahdalynivka","Mahdalynivka",48.9147,34.9154
 "Makariv","Makariv",50.4667,29.8167
-"Makiivka","Makiivka",48.0556,37.9611
+"Makiivka,Donetsk","Makiivka,Donetsk",48.0556,37.9611
+"Makiivka,Svatove","Makiivka,Svatove",49.22,37.983611
 "Mala Danylivka","Mala Danylivka",50.0614,36.1675
 "Mala Vyska","Mala Vyska",48.65,31.6333
 "Malyn","Malyn",50.7689,29.27
@@ -333,7 +335,8 @@
 "Mukacheve","Mukacheve",48.4414,22.7136
 "Mukachevo","Mukachevo",48.4493,22.7117
 "Murovani Kurylivtsi","Murovani Kurylivtsi",48.7222,27.515
-"Mykhailivka","Mykhailivka",47.2717,35.2248
+"Mykhailivka,Beryslav","Mykhailivka,Beryslav",46.586379,34.5643025
+"Mykhailivka,Vasylivka","Mykhailivka,Vasylivka",47.268333,35.228889
 "Mykhailo-Kotsiubynske","Mykhailo-Kotsiubynske",51.4528,31.0731
 "Mykolaiv","Mykolaiv",46.9667,32
 "Mykolaivka","Mykolaivka",47.4953,33.3917
@@ -373,9 +376,11 @@
 "Novomaiorske","Novomaiorske",47.735,37.0378
 "Novomoskovsk","Novomoskovsk",48.6328,35.2239
 "Novomykhailivka","Novomykhailivka",47.8533,37.4831
-"Novomykolayivka","Novomykolayivka",47.9779,35.9099
+"Novomykolaivka,","Novomykolaivka,Mykolaiv",46.964444,32.360278
+"Novomykolaivka,Zaporizhzhia","Novomykolaivka,Zaporizhzhia",47.9779,35.9099
 "Novooleksandrivka","Novooleksandrivka",47.2664,33.8736
-"Novopetrivka","Novopetrivka",47.0637,34.418
+"Novopetrivka,Bashtanka","Novopetrivka,Bashtanka",47.056389,32.669722
+"Novopetrivka,Beryslav","Novopetrivka,Beryslav",47.429444,33.468333
 "Novopskov","Novopskov",49.4847,39.1333
 "Novoraisk","Novoraisk",47.0086,33.4856
 "Novoselivka,Kramatorsk","Novoselivka,Kramatorsk",49.070278,37.691389
@@ -405,7 +410,8 @@
 "Okhtyrka","Okhtyrka",50.3074,34.9016
 "Oleksandriia","Oleksandriia",48.6633,33.0968
 "Oleksandriiske","Oleksandriiske",48.6019,32.9889
-"Oleksandrivka","Oleksandrivka",46.615,32.1113
+"Oleksandrivka,Kherson","Oleksandrivka,Kherson",46.615,32.1113
+"Oleksandrivka,Bashtanka","Oleksandrivka,Bashtanka",46.837222,32.760833
 "Oleksandrivsk","Oleksandrivsk",48.5833,39.1833
 "Olenivka","Olenivka",47.8314,37.66
 "Oleshky","Oleshky",46.6199,32.7073
@@ -608,7 +614,8 @@
 "Vakhrusheve","Vakhrusheve",48.1606,38.8389
 "Valky","Valky",49.8386,35.6217
 "Vapniarka","Vapniarka",48.5333,28.75
-"Vasylivka","Vasylivka",47.4344,35.2808
+"Vasylivka,Mykolaiv","Vasylivka,Mykolaiv",46.528889,31.790278
+"Vasylivka,Vasylivka","Vasylivka,Vasylivka",47.4344,35.2808
 "Vasylkiv","Vasylkiv",50.1775,30.3217
 "Vasylkivka","Vasylkivka",48.2084,36.0253
 "Vatutine","Vatutine",49.0167,31.0667

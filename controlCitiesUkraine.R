@@ -100,7 +100,7 @@ df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 #Fix cities with same name
 sameName <- c("Shevchenkove", "Ukrainka", "Troitske", "Kamianske", "Rubizhne", "Petropavlivka", "Novoselivka",
              "Blahodatne", "Makiivka", "Mykhailivka", "Novomykolaivka", "Novopetrivka", "Oleksandrivka", "Vasylivka",
-             "Pokrovske")
+             "Pokrovske", "Kamianka")
 for (i in 1:length(sameName)){
   df$NameSimple[df$NameSimple==sameName[i]] <- paste(df$NameSimple[df$NameSimple==sameName[i]],
                                                      df$Raion[df$NameSimple==sameName[i]],

@@ -60,6 +60,7 @@ df$`Held by` <- gsub(":","", df$`Held by`)
 df$`Held by` <- gsub("Contested.*$", "Contested", df$`Held by`)
 df$`Held by` <- gsub("Russia.*$", "Russia", df$`Held by`)
 df$`Held by`[df$`Held by`==""] <- "Contested" #temp fix
+df$`Held by`[df$`Held by`=="Shared control"] <- "Contested" 
 
 #Population ----
 colnames(df)[colnames(df) == "Pop."] <- "Population"

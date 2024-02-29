@@ -107,13 +107,13 @@ for (i in 1:length(sameName)){
                                                      df$Raion[df$NameSimple==sameName[i]],
                                                      sep = "")
 }
-
+df$NameSimple <- gsub("[^[:alpha:]]", "", df$NameSimple)
 df$NameSimple <- gsub("y", "i", df$NameSimple)
 
 #Remove Raion
 df <- subset(df, select = -c(Raion))
 df <- subset(df, select = -c(Municipality.or.raion))
-df <- subset(df, select = -c(Frontline.settlement..d.))
+# df <- subset(df, select = -c(Frontline.settlement..d.))
 
 # Add coordinates ----
 #Coordinates are taken from https://simplemaps.com/ and from Google when missing
